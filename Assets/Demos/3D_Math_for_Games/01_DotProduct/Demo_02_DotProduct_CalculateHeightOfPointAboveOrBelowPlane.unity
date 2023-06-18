@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 455376074}
   - component: {fileID: 455376075}
   m_Layer: 0
-  m_Name: CalculateHeightOfPointAboveOrBelowPlane
+  m_Name: DotProduct_CalculateHeightOfPointAboveOrBelowPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
