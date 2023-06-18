@@ -26,6 +26,8 @@ public class CalculateTheNormalVectorWithThreePoints : MonoBehaviour
 
         ///////////////////////////
         Vector3 centerOfPoints = (Point1 + Point2 + Point3) / 3;
+
+        // unity uses left-handed cartesian coordinate system
         Vector3 crossProductResult = Vector3.Cross(directionToPoint2From1, directionToPoint3From1);
         Vector3 normal = crossProductResult.normalized;
 
